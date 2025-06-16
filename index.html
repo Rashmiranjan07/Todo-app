@@ -4,13 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo App</title>
     <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+    
 </head>
 <body>
-    <div class="wrapper"></div>
+    <div class="wrapper show-category">
+        <div class="screen-backdrop"></div>
+        <div class="screen home-screen">
+           <div class="head-wrapper">
+             <div class="menu-btn">
+                 <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+                />
+              </svg>
 
+             </div>
+             <div class="welcome">
+                <div class="content">
+                    <h1>Hello John</h1>
+                    <p>Today you have 5 tasks</p>
+                </div>
+                <div class="img">
+                    <div class="backdrop"></div>
+                    <img src="images/boy.png" alt="">
+                </div>
+             </div>
+           </div>
 
+             <!-- categories -->
+            <div class="categories-wrapper">
+                <div class="categories">
+                    <div class="category">
+                        <div class="left">
+                            <img src="images/boy.png" alt="">
+                            <div class="content">
+                                <h1>Personal</h1>
+                                <p>5 Tasks</p>
+                            </div>
+                        </div>
+                        <div class="options">
+                            <div class="toggle-btn">
+                                <svg
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     fill="none"
+                                     viewBox="0 0 24 24"
+                                     stroke-width="1.5"
+                                     stroke="currentColor"
+                                     class="w-6 h-6"
+                                   >
+                                    <path
+                                     stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"
+                                    />
+                               </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--tasks screen-->
+        <div class="screen category-screen">category</div>
+    </div>
+    
 
     <script src=" app.js "></script>
 </body>

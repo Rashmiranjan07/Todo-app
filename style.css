@@ -7,20 +7,178 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+    width: 0;
+}
+
 body{
     min-height: 100vh;
     color: #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
+    font-family: "Inter", sans-serif;
 }
 .wrapper{
+    position: relative;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
+    padding: 30px 0;
+    display: flex;
 }
 
 @media (min-width:768px) {
     .wrapper{
          height: 50rem;
          width: 25rem;
+         border-radius: 40px;
          border: 10px solid #2e2e2e;
     }
+}
+
+
+
+.wrapper .screen{
+    flex: 1;
+    min-width: 100%;
+}
+
+.wrapper.show-category .home-screen {
+    transform: translateX(-100%);
+}
+
+.wrapper.show-category .category-screen {
+    transform: translateX(-100%);
+}
+
+
+.screen-backdrop{
+    width: 135%;
+    height: 25rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    border-radius: 0 0 50% 50%;
+    background-color: #f9ea85;
+}
+
+.head-wrapper{
+    padding: 0 30px;
+}
+
+
+
+
+.menu-btn{
+    width: 2rem;
+    cursor: pointer;
+    color: #2e2e2e;
+
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.welcome h1 {
+    font-size: 1.5rem;
+}
+
+.welcome p {
+    font-weight: 500;
+}
+
+.welcome .img{
+    position: relative;
+}
+
+.welcome .img img {
+    width: 5rem;
+}
+
+.welcome .img .backdrop {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3.8rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #fdfbe5;
+    z-index: -1;
+}
+
+.categories-wrapper{
+    margin-top: 1rem;
+    height: calc(100% - 8rem);
+    padding: 0 30px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+.categories{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.categories .category{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px 5px #00000023;
+    transition: all o.3s;
+}
+
+.categories .category:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px 5px #00000023;
+}
+
+.category .left{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.category .left img{
+    width: 3rem;
+}
+
+.category .content h1 {
+    font-size: 1.5rem;
+}
+
+.category .content p{
+    color: #2e2e2e;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+.category .options{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.category:hover .options{
+    opacity: 1;
+    visibility: visible;
+
+}
+   
+.category .toggle-btn {
+    width: 2rem;
+    cursor: pointer;
+    opacity: 0.6;
 }
