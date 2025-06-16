@@ -1,96 +1,26 @@
-* {
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root {
-    --background: #000430;
-    --secondaryBackground: #171c48;
-    --text: #fff;
-    --purple: #828dff;
-    --teal: #24feee;
+body{
+    min-height: 100vh;
+    color: #2e2e2e;
+    background-color: #fff;
 }
-
-body {
-    background-color: var(--background);
-    color: var(--text);
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 120px;
-    margin: 120px auto 0 auto;
-    max-width: 500px;
-    
-}
-
-.stats-container {
-    padding: 30px;
-    border-radius: 20px;
-    border: 2px solid var(--purple);
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+.wrapper{
+    height: 100vh;
     width: 100%;
 }
 
-.details {
-    width: 100%;
-}
-#progressBar {
-    width: 100%;
-    height: 10px;
-    background-color: var(--secondaryBackground);
-    border-radius: 5px;
-    margin-top: 20px;
-}
-#progress {
-    width: 0%;
-    height: 10px;
-    background-color: var(--teal);
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-#numbers {
-    width: 100px;
-    height: 100px;
-    background-color: var(--purple);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    font-size: 30px;
-    font-weight: bold;
-}
-form {
-    margin-top: 60px;
-    width: 100%;
-    display: flex;
-    gap: 10px;
-}
-input {
-    flex: 1;
-    padding: 16px;
-    background: var(--secondaryBackground);
-    border: 1px solid var(--purple);
-    border-radius: 10px;
-    outline: none;
-}
-button {
-   
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--purple);
-    color: var(--text);
-    font-size: 30px;
-    font-weight: bold;
-    outline: none;
+@media (min-width:768px) {
+    .wrapper{
+         height: 50rem;
+         width: 25rem;
+         border: 10px solid #2e2e2e;
+    }
 }
