@@ -43,6 +43,7 @@ body{
 .wrapper .screen{
     flex: 1;
     min-width: 100%;
+    transition: all 0.3s;
 }
 
 .wrapper.show-category .home-screen {
@@ -54,6 +55,10 @@ body{
 }
 
 
+.wrapper.show-category .screen-backdrop{
+    transform: translate(-50%, -60%);
+}
+
 .screen-backdrop{
     width: 135%;
     height: 25rem;
@@ -64,6 +69,7 @@ body{
     transform: translateX(-50%);
     border-radius: 0 0 50% 50%;
     background-color: #f9ea85;
+    transition: all 0.3s;
 }
 
 .head-wrapper{
@@ -181,4 +187,200 @@ body{
     width: 2rem;
     cursor: pointer;
     opacity: 0.6;
+}
+
+
+/* tasks screen */
+.category-screen .head-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-screen .head-wrapper svg {
+    width: 2rem;
+    cursor: pointer;
+    color: #2e2e2e;
+}
+
+.category-details {
+    padding: 0 30px;
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.category-details img{
+    width: 4rem;
+}
+
+.category-details .details p {
+    opacity: 0.6;
+}
+
+
+/* tasks */
+.tasks-wrapper{
+    padding: 0 30px;
+    margin-top: 1rem;
+    height: calc(100% - 12rem);
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+.tasks{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.task-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: max-content;
+    cursor: pointer;
+}
+
+.task input{
+    display: none;
+}
+
+.task .checkmark {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 2px;
+    border: 1px solid #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task .checkmark svg{
+    width: 1rem;
+    color: #2e2e2e;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.task:hover .checkmark svg{
+    opacity: 1;
+}
+
+.task .checkmark svg path {
+    stroke-width: 3;
+
+}
+
+.task input:checked~.checkmark{
+    background-color: #2e2e2e;
+}
+
+.task input:checked~.checkmark svg{
+    opacity: 1;
+    color: #fff;
+}
+
+.task input:checked~p {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.task-wrapper .delete{
+    min-width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: #2e2e2e;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.31);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.task-wrapper:hover .delete {
+    visibility: visible;
+    opacity: 1;
+}
+
+.task-wrapper .delete:hover {
+    color: red;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* add task */
+.add-task-btn{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9ea85;
+    transition: all 0.3s;
+}
+
+.add-task-btn:hover {
+    transform: scale(1.1);
+}
+
+.add-task-btn svg {
+    width: 2rem;
+    color: #2e2e2e;
+}
+
+.add-task {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.add-task .heading {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group label {
+    display: bloxc;
+    width: 100%;
+}
+
+.input-group input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+    
+.input-group label{
+    width: max-content;
+    padding: 0 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
 }
