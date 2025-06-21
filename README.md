@@ -3,7 +3,8 @@
 
 ## 📖 Description:- 
 
-A simple, user-friendly To-Do app that helps you keep track of your tasks, stay organized, and boost productivity. This app allows users to add, edit, delete, and mark tasks as complete in the basis of categories.
+
+A simple and user-friendly To-Do app designed to help you stay organized, focused, and productive. This app allows users to create, edit, delete, and mark tasks as complete, all while categorizing them for better task management. Whether you're tracking personal goals, educational tasks, or work-related items, this app keeps everything in one place
 
 
 # 🚀 Features:-
@@ -28,26 +29,8 @@ Others: Git & Github
 
 
 # Clone the repository
-git clone https://github.com/yourusername/todo-app.git
+git clone https://github.com/Rashmiranjan07/Todo-app
 
-# Navigate into the project folder
-cd todo-app
-
-
-📁 Project Structure 
-bash
-Copy
-Edit
-/todo-app
-│
-├── /public
-├── /src
-│   ├── /components
-│   ├── App.js
-│   ├── index.js
-│
-├── package.json
-├── README.md
 
 
 ## 🪪 License
