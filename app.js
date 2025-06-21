@@ -42,7 +42,7 @@ let tasks = [
   },
   {
     id: 2,
-    task: "Read a chapter of a book",
+    task: "Learn a new skill",
     category: "Personal",
     completed: false,
   },
@@ -84,13 +84,13 @@ let tasks = [
   },
   {
     id: 9,
-    task: "Buy groceries for the week",
+    task: "Buy groceries for the day",
     category: "Shopping",
     completed: false,
   },
   {
     id: 10,
-    task: "Write in a journal",
+    task: "Watch a movie/web-series",
     category: "Personal",
     completed: false,
   },
@@ -126,7 +126,7 @@ let tasks = [
   },
   {
     id: 16,
-    task: "Set up automatic bill payments",
+    task: "Calculate the day spend ",
     category: "Finance",
     completed: false,
   },
