@@ -21,6 +21,7 @@ A simple and user-friendly To-Do app designed to help you stay organized, focuse
 
 ## 🖼️ Screenshots
 
+![image](https://github.com/user-attachments/assets/2057dea1-f6df-4d61-a09b-77203c1b2cbc)
 
 
 
