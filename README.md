@@ -21,6 +21,10 @@ A simple and user-friendly To-Do app designed to help you stay organized, focuse
 
 ## 🖼️ Screenshots
 
+![Home Screen](c:\Users\heyyr\Downloads\screenshot1.jpg)
+![Task Added](c:\Users\heyyr\Downloads\Screenshot2.jpg)
+
+
 
 # 🔧 Technologies Used
 Frontend: HTML, CSS, JavaScript 
