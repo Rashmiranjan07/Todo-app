@@ -50,16 +50,28 @@ Edit
 ├── README.md
 
 
-
-## 🌐 Live Demo
-[TO-DO App](https://rashmiranjan07.github.io/Todo-app/)
-
-
-
 ## 🪪 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙋‍♂️ Contact
+
+# 📞 Contact
+
+👤 Rashmiranjan shaw
+
+- LinkedIn: [Rashmiranjan shaw](https://www.linkedin.com/in/rashmiranjan-shaw-8333a532a/)
+
+- GitHub: [Rashmiranjan07](https://github.com/Rashmiranjan07)
+
+- Email: heyyrashmiranjan02@gmail.com
+
+- Project Link: [To-Do App](https://rashmiranjan07.github.io/Todo-app/)
+
+
+
+
+
+
+
 
 
 
