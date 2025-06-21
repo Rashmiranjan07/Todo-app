@@ -25,9 +25,7 @@ A simple and user-friendly To-Do app designed to help you stay organized, focuse
 
 ![Screenshot 2025-06-21 192945](https://github.com/user-attachments/assets/61d4a587-bbb4-461b-b3a0-b579f3b16a45)
 
-
-
-
+![Screenshot 2025-06-21 193251](https://github.com/user-attachments/assets/313a2057-163f-4c57-8c78-18616facd635)
 
 # 🔧 Technologies Used
 Frontend: HTML, CSS, JavaScript 
