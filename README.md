@@ -21,9 +21,9 @@ A simple and user-friendly To-Do app designed to help you stay organized, focuse
 
 ## 🖼️ Screenshots
 
-![Home Screen](c:\Users\heyyr\Downloads\screenshot1.jpg)
-![Task Added](c:\Users\heyyr\Downloads\Screenshot2.jpg)
-
+![screenshot1](https://github.com/user-attachments/assets/f90f58e2-51b4-413b-89d8-68263d68c09b)
+![Screenshot2](https://github.com/user-attachments/assets/e663b6d4-bb6b-4011-8db6-604baf7ad388)
+![Screenshot3](https://github.com/user-attachments/assets/0d55f26f-eb0e-4495-ad2b-0ed831539451)
 
 
 # 🔧 Technologies Used
