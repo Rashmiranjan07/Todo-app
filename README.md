@@ -37,11 +37,6 @@ Others: Git & Github
 git clone https://github.com/Rashmiranjan07/Todo-app
 
 
-
-## 🪪 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
 # 📞 Contact
 
 👤 Rashmiranjan shaw
@@ -53,6 +48,15 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Email: heyyrashmiranjan02@gmail.com
 
 - Project Link: [To-Do App](https://rashmiranjan07.github.io/Todo-app/)
+
+# 🙌 Contributions
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## 🪪 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 
 
 
