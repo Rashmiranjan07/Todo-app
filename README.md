@@ -4,7 +4,7 @@
 ## 📖 Description:- 
 
 
-A simple and user-friendly To-Do app designed to help you stay organized, focused, and productive. This app allows users to create, edit, delete, and mark tasks as complete, all while categorizing them for better task management. Whether you're tracking personal goals, educational tasks, or work-related items, this app keeps everything in one place
+A simple and user-friendly To-Do app designed to help you stay organized, focused, and productive. This app allows users to create, edit, delete, and mark tasks as complete, all while categorizing them for better task management. Whether you're tracking personal goals, educational tasks, or work-related items, this app keeps everything in one place.
 
 
 # 🚀 Features:-
