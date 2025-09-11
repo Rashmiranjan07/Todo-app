@@ -54,4 +54,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## 🪪 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-
