@@ -9,7 +9,7 @@ A simple and user-friendly To-Do app designed to help you stay organized, focuse
 
 ✅ Add new tasks.
 
-📝 Edit existing tasks.
+📝 Edit existing tasks. 
 
 🗑️ Delete tasks.
 
